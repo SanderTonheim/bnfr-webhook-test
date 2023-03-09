@@ -5,3 +5,4 @@ export default sanityClient({
 	dataset: 'production', // or the name you chose in step 1
 	useCdn: false, // `false` if you want to ensure fresh data
 })
+
