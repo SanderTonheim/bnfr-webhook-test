@@ -53,8 +53,8 @@ export default function ProfilePage({ post }) {
 					' '
 				) : (
 					<CompanyMap
-						lat={post.location.lat}
-						lng={post.location.lng}
+						lat={post?.location?.lat}
+						lng={post?.location?.lng}
 					/>
 				)}
 			</div>
